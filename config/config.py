@@ -27,7 +27,7 @@ class Config(metaclass=Singleton):
         self.smart_token_limit = int(os.getenv("SMART_TOKEN_LIMIT", 8000))
         self.browse_chunk_max_length = int(os.getenv("BROWSE_CHUNK_MAX_LENGTH", 8192))
 
-        self.openai_api_key = os.getenv("OPENAI_API_KEY")
+        self.openai_api_key = os.getenv("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")
         self.temperature = float(os.getenv("TEMPERATURE", "1"))
 
         self.user_agent = os.getenv(
